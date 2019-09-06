@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import {StaticQuery, graphql, Link} from "gatsby"
-
+import Intercom from 'react-intercom';
 import Header from "./header"
 import "../../static/styles/main.scss"
 import logo from "../../static/images/talentuum-logo.png"
@@ -29,6 +29,7 @@ const Layout = ({children}) => (
     `} render={data => (
         <>
             <Header siteTitle={data.site.siteMetadata.title}/>
+            <Intercom appID="mz18j330"/>
             <main>{children}</main>
             <footer>
                 <div className={"container"}>
