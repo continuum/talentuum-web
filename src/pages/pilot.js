@@ -15,7 +15,7 @@ const PilotPage = () => (
 
                 <p><strong>¡Bienvenido! 👋 Si estás leyendo esto es porque manifestaste interés en nuestro piloto</strong></p>
 
-                <p>¿Como seguimos? Debes <a href='#' onClick={openLogin}>inscribirte</a> y contestar unas 4-5 preguntas que te haremos ahí via chat.</p>
+                <p>¿Como seguimos? Debes <strong><a href='#' onClick={openLogin}>inscribirte</a></strong> y contestar unas 4-5 preguntas que te haremos ahí via chat.</p>
 
                 <p>Teniendo esa info un Agente de Talentuum (entre quienes quizás conozcas personajes de <a href="https://www.continuum.cl">Continuum</a> como <a href="https://twitter.com/lilianareyes">@lilianareyes</a>, <a href="https://twitter.com/leosoto">@leosoto</a> o <a href="https://twitter.com/ricardojara">@ricardojara</a>) te contactará personalmente en ese mismo chat (las primeras 4 preguntas son automatizadas). Podrás contestar por chat (ingresando a <a href="https://www.talentuum.cl">talentuum.cl</a>) o también podrás ir contestando por correo si prefieres esa vía.</p>
 
