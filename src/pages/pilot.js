@@ -13,13 +13,13 @@ const PilotPage = () => (
                     <h1>Piloto Talentuum Agent</h1>
                 </div>
 
-                <p><strong>¡Bienvenido! Si estás leyendo esto es porque manifestaste interés en nuestro piloto</strong></p>
+                <p><strong>¡Bienvenido! 👋 Si estás leyendo esto es porque manifestaste interés en nuestro piloto</strong></p>
 
                 <p>¿Como seguimos? Debes <a href='#' onClick={openLogin}>inscribirte</a> y contestar unas 4-5 preguntas que te haremos ahí via chat.</p>
 
-                <p>Con eso tendremos tu información básica para que un Agente de Talentuum (entre los que estamos personas que quizás conozcas de Continuum como <a href="https://twitter.com/lilianareyes">@lilianareyes</a>, <a href="https://twitter.com/leosoto">@leosoto</a> o <a href="https://twitter.com/ricardojara">@ricardojara</a>) te atienda personalmente en ese mismo chat (las primeras 4 preguntas son automatizadas)</p>
+                <p>Teniendo esa info un Agente de Talentuum (entre quienes quizás conozcas personajes de <a href="https://www.continuum.cl">Continuum</a> como <a href="https://twitter.com/lilianareyes">@lilianareyes</a>, <a href="https://twitter.com/leosoto">@leosoto</a> o <a href="https://twitter.com/ricardojara">@ricardojara</a>) te contactará personalmente en ese mismo chat (las primeras 4 preguntas son automatizadas). Podrás contestar por chat (ingresando a <a href="https://www.talentuum.cl">talentuum.cl</a>) o también podrás ir contestando por correo si prefieres esa vía.</p>
 
-                <p>Finalmente ese agente en base a tus respuestas originales y a ese primer chat personal evaluará si quedas priorizado en nuestro primer grupo o en el segundo de cara a ayudarte a encontrar ese trabajo ideal (ayudaremos a todos quienes se inscriban en el piloto)</p>
+                <p>Con la suma de tus respuestas originales y a ese primer chat personal, tu agente evaluará si quedas priorizado en nuestro primer grupo o en el segundo de cara a ayudarte a encontrar ese trabajo ideal (ayudaremos a todos quienes se inscriban en el piloto)</p>
 
                 <p><strong>El piloto tendrá un tope de 35 personas, por lo que mientras antes te inscribas mejor</strong>. Pero ponle cariño a las respuestas para aumentar tus chances de estar en el primer grupo.</p>
 
