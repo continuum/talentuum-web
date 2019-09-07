@@ -37,9 +37,9 @@ const Layout = ({children}) => (
                         <div className={"col-5"}>
                             <div className={"widget__item"}>
                                 <div className={"logo"}>
-                                    <Link to="/" title={"Talentuum"}>
+                                    <a href="/" title={"Talentuum"}>
                                         <img alt={"Logo"} src={logo}/>
-                                    </Link>
+                                    </a>
                                 </div>
 
                                 <div className={"about"}>
@@ -53,7 +53,7 @@ const Layout = ({children}) => (
                                 <ul className={"links"}>
                                     <h4>Talentuum</h4>
                                     <ul>
-                                        <li><Link to="/about" title={"About Us"}>About</Link></li>
+                                        <li><a href="/about" title={"About Us"}>About</a></li>
                                         {/* <li><a href={"https://Talentuum.io/blog"}>Blog</a></li> */}
                                         <li><a className={"links__special"} href={"mailto:talentuum@continuum.cl?subject=Feedback"} target={"_blank"} title={"Nos encanta recibir feedback"}>Feedback</a></li>
                                     </ul>
