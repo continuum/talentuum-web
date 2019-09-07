@@ -39,7 +39,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Reclutamos</h2>
-                                <p>Encontramos a los mejores talentos para las oportunidades dentro de tu equipo o empresa.</p>
+                                <p>Te ayudamos a comunicar una propuesta de valor para atraer talentos que conecten con los desafíos de tu equipo o empresa (y luego validamos y entrevisamos para que uses tu tiempo con los mejores candidatos)</p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Buscamos tu trabajo ideal</h2>
-                                <p>Nos preocupamos de entender de lo que eres capaz. Pero más importante: Nos interesa saber qué te mueve, y conseguirte un lugar donde lo encuentres.</p>
+                                <p>Nos preocupamos de entender de lo que eres capaz. Pero más importante: Nos interesa saber qué te mueve, y conseguirte un lugar donde lo encuentres (aunque sea en empresas que no son clientes nuestros)</p>
                             </div>
                         </div>
 
@@ -73,7 +73,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Validamos y Garantizamos</h2>
-                                <p>En Continuum llevamos más de 10 años encontrando y seleccionando talento. Ponemos el mismo proceso y experiencia a tu disposición. Con garantía hasta por 12 meses.</p>
+                                <p>En Continuum llevamos más de 10 años encontrando y seleccionando talento. Ponemos el mismo proceso y experiencia a tu disposición. Con garantía de 3 hasta 12 meses.</p>
                             </div>
                         </div>
                     </div>
@@ -106,8 +106,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Somos pragmáticos</h2>
-                                <p>Si estás limitado por head-count, nosotros contratamos inicialmente. Pero la idea es que más temprano que tarde contrates tú directo. <br/> (Hacemos outsourcing, pero sólo como parche).</p>
+                                <h2>Entendemos tus dolores</h2>
+                                <p>Nunca sobra caja y nuevos miembros del equipo no son productivos inmediatamente, así que te cobramos en cuotas mensuales. Y si estás limitado por <i>head count</i>, te ofrecemos <i>outsourcing</i> por un tiempo (pero con miras a que contrates tú directo más temprano que tarde).</p>
                             </div>
                         </div>
                     </div>
