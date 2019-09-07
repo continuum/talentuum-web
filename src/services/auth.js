@@ -23,6 +23,7 @@ export function intercomUserData(user) {
 netlifyIdentity.on('login', user => {
   if (window.Intercom) {
     window.Intercom('boot', intercomUserData(user));
+    window.Intercom('showMessages')
   }
   netlifyIdentity.close();
 })
