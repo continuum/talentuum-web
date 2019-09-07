@@ -50,7 +50,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Buscamos tu trabajo ideal</h2>
-                                <p>Nos preocupamos de entender de lo que eres capaz. Pero más importante: Nos   esa saber qué te mueve, y conseguirte un lugar donde lo encuentres.</p>
+                                <p>Nos preocupamos de entender de lo que eres capaz. Pero más importante: Nos interesa saber qué te mueve, y conseguirte un lugar donde lo encuentres.</p>
                             </div>
                         </div>
 
