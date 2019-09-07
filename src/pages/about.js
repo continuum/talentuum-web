@@ -12,7 +12,7 @@ const AboutPage = () => (
         <SEO title="About"/>
 
         <div className={"page-header"}>
-            <h2>Qué es Talentuum?</h2>
+            <h2>¿Qué es Talentuum?</h2>
             <p>Talentuum es varias cosas a la vez. <br/>Somos agentes de talentos digitales con ganas de desarrollarse profesionalmente. <br/>Y reclutadores para empresas que necesitan talento para hacer realidad sus productos y su visión. </p>
             <p>También somos parte de <a href="https://www.continuum.cl">Continuum</a>, <br/> donde por años hemos entendido que el talento de las personas hace toda la diferencia.</p>
         </div>
