@@ -5180,6 +5180,13 @@ gatsby-page-utils@^0.0.16:
     micromatch "^3.1.10"
     slash "^3.0.0"
 
+gatsby-plugin-create-client-paths@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-create-client-paths/-/gatsby-plugin-create-client-paths-2.1.6.tgz#919448ac23a13572f6c7a14340d92b3022132e64"
+  integrity sha512-3ZuoBpOxzkjFaj3B4azMrUYzT9p9eOczzhbX91Jr8i0x0FbUEWMVZ9hUipwR2/u/2MSEfdqy3dGRE4buJkR0/g==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+
 gatsby-plugin-manifest@^2.1.1:
   version "2.2.14"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.14.tgz#414d8eb774f6a2a2da264295330b93e6ee91c758"
@@ -7920,6 +7927,11 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+netlify-identity-widget@^1.5.5:
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/netlify-identity-widget/-/netlify-identity-widget-1.5.5.tgz#e9ba8d7676263507106060236cf55c2992f425e4"
+  integrity sha512-gCILbXMVn83TiRaiPCWk93ynyyYgxn8N/KoO+WOfyGZaNgq7gMMPtn7vo6VDe/ZczgyCn9DRlm3artNoj78/MQ==
 
 next-tick@^1.0.0:
   version "1.0.0"

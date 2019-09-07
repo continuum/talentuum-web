@@ -3,6 +3,9 @@ import PropTypes from "prop-types"
 import React from "react"
 import logo from "../../static/images/talentuum-logo.png"
 
+import { openLogin }  from "../services/auth"
+
+
 const Header = ({siteTitle}) => (
     <header>
         <div className={"container"}>
@@ -12,9 +15,8 @@ const Header = ({siteTitle}) => (
                         <img alt={"Logo"} src={logo}/>
                     </a>
                 </div>
-
-                <div className={"get-started"}>
-                    <a href={"https://app.Talentuum.io"}>Entrar</a>
+                <div className={"button"}>
+                    <a href='#' onClick={openLogin}>Sign up or Login</a>
                 </div>
             </div>
         </div>

@@ -1,8 +1,9 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png";
+import { openLogin }  from "../services/auth"
+
+import featureImage from "../../static/images/hero.png"
 import thumbnailEvent from "../../static/images/feature-event.png"
 import thumbnailBoard from "../../static/images/feature-board.png"
 import thumbnailNews from "../../static/images/feature-news.png"
@@ -12,14 +13,13 @@ import thumbnailStaff from "../../static/images/feature-user.png"
 const IndexPage = () => (
     <Layout>
         <SEO title="Te ayudamos a encontrar tu trabajo ideal. Te ayudamos a encontrar el talento clave para tus equipos."/>
-
         <div className={"page-header home"}>
             <div className={"row"}>
-                <div className={"col-6"}>            
+                <div className={"col-6"}>
                     <h1>Tienes el talento <br/>que hace la diferencia.</h1>
                 </div>
-                <div className={"col-6"}>            
-                    <h1>Ofreces desafíos <br/> que valen la pena.</h1>  
+                <div className={"col-6"}>
+                    <h1>Ofreces desafíos <br/> que valen la pena.</h1>
                 </div>
             </div>
             <p>Reunimos los mejores talentos con las mejores oportunidades</p>
@@ -50,7 +50,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Buscamos tu trabajo ideal</h2>
-                                <p>Nos preocupamos de entender de lo que eres capaz. Pero más importante: Nos interesa saber qué te mueve, y conseguirte un lugar donde lo encuentres.</p>
+                                <p>Nos preocupamos de entender de lo que eres capaz. Pero más importante: Nos   esa saber qué te mueve, y conseguirte un lugar donde lo encuentres.</p>
                             </div>
                         </div>
 
@@ -119,11 +119,11 @@ const IndexPage = () => (
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
                     <h2>¿Te interesa?</h2>
-                    <p>Regístrate o Ingresa como Talento o como Empresa para descubrir nuestro servicio.</p>
+                    <p>Regístrate o Ingresa para descubrir nuestro servicio.</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.Talentuum.io" target={"_blank"}>Me interesa</a>
+                    <a href='#' onClick={openLogin}>Me Interesa</a>
                 </div>
             </div>
         </div>
