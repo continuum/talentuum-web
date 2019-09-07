@@ -1,24 +1,29 @@
-# Talentuum Web 
+# Talentuum Web
 
-Basic web site based on https://github.com/Talentuum/website-static/ 
+Basic web site based on https://github.com/histaff/website-static/
 
 ## 🚀 Quick start
 
 
-1. **Start the site in `develop` mode.**
+1. **Install dependencies.**
 
    ```sh
-   gatsby develop
+   brew install yarn gatsby-cli netlify-cli
+   yarn install
    ```
 
-2. **Open the source code and start editing!**
 
-   Your site is now running at `http://localhost:8000`. Edit `src/pages/index.js`. Save your changes, and the browser will update in real time!
+2. **Start the site in `develop` mode.**
 
-At this point, you’ve got a fully functional Gatsby website. For additional information on how you can customize your Gatsby site, see our [plugins](https://gatsbyjs.org/plugins/) and [the official tutorial](https://gatsbyjs.org/tutorial/).
+   ```sh
+   netlify dev
+   ```
 
-## 🧐 Features (inherited from Talentuum template)
-* Support SCSS
-* Web font loader (Google and custom font)
-* Sample pages for starter
-* Clean code and structure
+3. **Open the source code and start editing!**
+
+The code is based on a gatsby [template](https://github.com/histaff/website-static/).
+
+For additional information on how you can customize your Gatsby site, see our
+[plugins](https://gatsbyjs.org/plugins/) and [the official
+tutorial](https://gatsbyjs.org/tutorial/).
+
