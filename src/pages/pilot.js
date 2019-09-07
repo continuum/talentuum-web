@@ -26,7 +26,7 @@ const PilotPage = () => (
                 <p>Sabemos que la confianza requiere transparencia, confidencialidad y responsabilidad. En <a href="https://paper.dropbox.com/doc/Talentuum-Agent-Piloto--AkVa_s9LXHaRy5UiWz3yTdDFAQ-TWBd6lWiE3hspm05f7eb3">este link puedes leer el plan a full</a>. Y cualquier duda la puedes plantear en el mismo chat con nostros. </p>
 
                 <p>
-                    <strong><a href='#' onClick={openLogin}>Registrate aquí</a></strong> y luego continúa en nuestro chat con Talentbot (aparecerá a la derecha si estás en un computador).
+                    <strong><a href='#' onClick={openLogin}>Registrate aquí</a></strong> y luego continúa en nuestro chat con Talentbot<br/> <small>(Aparecerá a la derecha si estás en un computador. Estamos en fase prototipo que no siempre funciona bien en móvil, pero puedes identificarte de nuevo en tu computador y continuar el chat ahí sin perder nada de lo que ya enviaste)</small>.
                 </p>
             </div>
         </div>
