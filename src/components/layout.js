@@ -78,7 +78,7 @@ const Layout = ({children}) => (
                                     <ul>
                                         <li><a href={"mailto:talentuum@continuum.cl?subject=Contact"} target={"_blank"} title={"Contáctanos"}>Contacto</a></li>
                                         {/* <li><Link to="/privacy" title={"Privacy Policy"}>Privacy</Link></li> */}
-                                        {/* <li><Link to="/terms" title={"Terms Of Use"}>Terms Of Use</Link></li> */}
+                                        <li><a href="/pilot" title={"Piloto Agent"}>Piloto Agent</a></li>
                                     </ul>
                                 </div>
                             </div>
