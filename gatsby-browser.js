@@ -22,7 +22,9 @@ function showIntercom() {
     if (window.Intercom) {
         window.Intercom('boot', intercomUserData());
         window.Intercom('update');
-        window.Intercom('showMessages')
+        if (/iPhone|iPad|iPod|Android/i.test(window.navigator.userAgent)) {
+           window.Intercom('showMessages')
+        }
     }
   }, 2000);
 }
