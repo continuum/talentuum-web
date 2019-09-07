@@ -16,10 +16,10 @@ const IndexPage = () => (
         <div className={"page-header home"}>
             <div className={"row"}>
                 <div className={"col-6"}>
-                    <h1>Tienes el talento <br/>que hace la diferencia.</h1>
+                    <h1>¿Eres un profesional talentoso <br/>que hace la diferencia?</h1>
                 </div>
                 <div className={"col-6"}>
-                    <h1>Ofreces desafíos <br/> que valen la pena.</h1>
+                    <h1>¿Ofreces desafíos <br/> en que valen la pena trabajar?</h1>
                 </div>
             </div>
             <p>Reunimos los mejores talentos con las mejores oportunidades</p>
