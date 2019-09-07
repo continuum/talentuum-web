@@ -22,7 +22,7 @@ function showIntercom() {
     if (window.Intercom) {
         window.Intercom('boot', intercomUserData());
         window.Intercom('update');
-        if (/iPhone|iPad|iPod|Android/i.test(window.navigator.userAgent)) {
+        if (!(/iPhone|iPad|iPod|Android/i.test(window.navigator.userAgent))) {
            window.Intercom('showMessages')
         }
     }
