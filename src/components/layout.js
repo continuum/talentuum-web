@@ -12,7 +12,8 @@ import Intercom from 'react-intercom';
 import Header from "./header"
 import { Helmet } from 'react-helmet'
 import "../../static/styles/main.scss"
-import logo from "../../static/images/talentuum-logo.png"
+import logo from "../../static/images/talentuum-logo-title.png"
+import logo_inv from "../../static/images/talentuum-logo-title-inv.png"
 import iconTwitter from "../../static/images/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
 import iconGitHub from "../../static/images/icon-github.svg"
@@ -48,12 +49,12 @@ const Layout = ({children}) => (
                             <div className={"widget__item"}>
                                 <div className={"logo"}>
                                     <a href="/" title={"Talentuum"}>
-                                        <img alt={"Logo"} src={logo}/>
+                                        <img alt={"Logo"} src={logo_inv}/>
                                     </a>
                                 </div>
 
                                 <div className={"about"}>
-                                    <p>Talentuum conecta al talento que hace la diferencia con los desafíos que valen la pena. </p>
+                                    <p><b>Talentuum</b> conecta al talento que hace la diferencia con los desafíos que valen la pena. </p>
                                 </div>
                             </div>
                         </div>

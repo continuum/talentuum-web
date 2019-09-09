@@ -1,7 +1,7 @@
 import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logo from "../../static/images/talentuum-logo.png"
+import logo from "../../static/images/talentuum-logo-title.png"
 
 import { openLogin }  from "../services/auth"
 
@@ -16,7 +16,7 @@ const Header = ({siteTitle}) => (
                     </a>
                 </div>
                 <div className={"button"}>
-                    <a href='#' onClick={openLogin}>Sign up or Login</a>
+                    <a href='#' onClick={openLogin}>Registrase / Acceder</a>
                 </div>
             </div>
         </div>
