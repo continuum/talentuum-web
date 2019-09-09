@@ -17,7 +17,7 @@ body {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: PT Serif;
+    font-family: sans-serif;
     line-height: 43px;
     color: #1E1C21;
   }
@@ -77,6 +77,16 @@ body {
     color: #fff;
     font-family: sans-serif;
     text-align: center;
+  }
+
+  .img-in-title {
+    height: 20px;
+    margin-bottom: -4px;
+  }
+
+  .purple {
+    color: #ff507d;
+    font-weight: bold;
   }
 
   .page-header {
@@ -273,6 +283,7 @@ body {
   .content {
     line-height: 26px;
     margin: 47px 0 23px;
+    padding-bottom: 40px;
 
     p {
       margin: 0 0 16px;
@@ -280,6 +291,10 @@ body {
 
     .title {
       margin: 0 0 44px;
+    }
+
+    h1, h3 {
+      color: #3f51b5;
     }
   }
 
@@ -427,7 +442,14 @@ body {
 .to_right {
   text-align: right;
 }
+.to_center {
+  text-align: center;
+}
 
 .remote-img {
   width: 100px;
+}
+
+.head-image {
+  width: 300px;
 }
