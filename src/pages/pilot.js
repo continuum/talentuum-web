@@ -9,6 +9,9 @@ const PilotPage = () => (
         <SEO title="Piloto Talentuum Agent"/>
         <div className={"container"}>
             <div className={"content"}>
+                <div className={"to_leaf"}>
+                    <img className={"head-image"} src="https://image.flaticon.com/icons/svg/1535/1535019.svg" />
+                </div>
                 <div className={"title"}>
                     <h1>Piloto Talentuum Agent</h1>
                 </div>

@@ -14,15 +14,31 @@ const IndexPage = () => (
     <Layout>
         <SEO title="Te ayudamos a encontrar tu trabajo ideal. Te ayudamos a encontrar el talento clave para tus equipos."/>
         <div className={"page-header home"}>
+            <div className={"container bg-image"}>
             <div className={"row"}>
-                <div className={"col-6"}>
-                    <h1>👩🏻‍💻👨🏻‍💻<br/>¿Eres un profesional talentoso <br/>que hace la diferencia?</h1>
+                <div className={"col-12"}>
+                    <h1 className={"purple-title"}>Reunimos los mejores talentos con las mejores oportunidades</h1>
+
+                    <div className={"button-call"}>
+                        <a href='#' onClick={openLogin}>Me Interesa</a>
+                    </div>
+
                 </div>
-                <div className={"col-6"}>
-                    <h1>🏢🏔<br/>¿Ofreces desafíos <br/> en que valen la pena trabajar?</h1>
+
+                <div className={"col-5"}>
+                    <h2 class="to_left">
+                    <img src="https://image.flaticon.com/icons/svg/1006/1006524.svg" class="remote-img" />
+                    <br/>¿Eres un profesional talentoso que<br/>hace la diferencia?</h2>
+                </div>
+                <div className={"col-2"}>&nbsp;</div>
+                <div className={"col-5"}>
+                    <h2 class="to_right">
+                    <img src="https://image.flaticon.com/icons/svg/1860/1860803.svg" class="remote-img" />
+                    <br/>¿Ofreces desafíos <br/> en que valen la pena trabajar?
+                    </h2>
                 </div>
             </div>
-            <p>Reunimos los mejores talentos con las mejores oportunidades</p>
+            </div>
             {/* <img alt={"Dashboard"} src={featureImage}/> */}
         </div>
 
@@ -32,13 +48,13 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                {/* <img alt={"Event"} src={thumbnailEvent}/> */}
+                                <img alt={"Event"} src={thumbnailEvent}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Reclutamos<br/>🏢🏔</h2>
+                                <h2>Reclutamos</h2><br/>
                                 <p>Ayudamos a tu empresa comunicar una propuesta de valor para atraer talentos que conecten con los desafíos de tu equipo o empresa (y luego validamos y entrevisamos para que uses tu tiempo con los mejores candidatos)</p>
                             </div>
                         </div>
@@ -49,14 +65,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Buscamos tu trabajo ideal<br/>👩🏻‍💻👨🏻‍💻</h2>
+                                <h2>Buscamos tu trabajo ideal</h2><br/>
                                 <p>Nos preocupamos de entender de lo que eres capaz con tu talento. Pero más importante: Nos interesa saber qué te mueve, y conseguirte un lugar donde lo encuentres (aunque sea en empresas que no son clientes nuestros)</p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                {/* <img alt={"Board"} src={thumbnailBoard}/> */}
+                                <img alt={"Board"} src={thumbnailBoard}/>
                             </div>
                         </div>
                     </div>
@@ -66,13 +82,13 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                {/* <img alt={"News"} src={thumbnailNews}/> */}
+                                <img alt={"News"} src={thumbnailNews}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Validamos y Garantizamos<br/>🏢🏔</h2>
+                                <h2>Validamos y Garantizamos</h2><br/>
                                 <p>En Continuum llevamos más de 10 años encontrando y seleccionando talento. Ponemos el mismo proceso y experiencia a tu disposición. Con garantía de 3 hasta 12 meses.</p>
                             </div>
                         </div>
@@ -83,14 +99,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Guiamos tu crecimiento<br/>👩🏻‍💻👨🏻‍💻</h2>
+                                <h2>Guiamos tu crecimiento</h2><br/>
                                 <p>A veces no sabes si estás preparado para el siguiente paso en tu carrera. Te ayudamos a identificar esas brechas. O a veces el síndrome del impostor te hace pensar que no estás listo. Te damos ese empujoncito cuando corresponda.  </p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                {/* <img alt={"Team"} src={thumbnailTeams}/> */}
+                                <img alt={"Team"} src={thumbnailTeams}/>
                             </div>
                         </div>
                     </div>
@@ -100,13 +116,13 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                {/* <img alt={"Users"} src={thumbnailStaff}/> */}
+                                <img alt={"Users"} src={thumbnailStaff}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Entendemos tus dolores<br/>🏢🏔</h2>
+                                <h2>Entendemos tus dolores</h2><br/>
                                 <p>Nunca sobra caja y nuevos miembros del equipo no son productivos inmediatamente, así que te cobramos en cuotas mensuales. Y si estás limitado por <i>head count</i>, te ofrecemos <i>outsourcing</i> por un tiempo (pero con miras a que contrates tú directo más temprano que tarde).</p>
                             </div>
                         </div>
