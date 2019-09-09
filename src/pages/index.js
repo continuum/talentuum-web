@@ -18,6 +18,11 @@ const IndexPage = () => (
             <div className={"row"}>
                 <div className={"col-12"}>
                     <h1 className={"purple-title"}>Reunimos los mejores talentos con las mejores oportunidades</h1>
+
+                    <div className={"button-call"}>
+                        <a href='#' onClick={openLogin}>Me Interesa</a>
+                    </div>
+
                 </div>
 
                 <div className={"col-5"}>

@@ -102,9 +102,8 @@ body {
     @media screen and (max-width: $break-small) {
       padding-top: 1px;
       padding-bottom: 50px;
-      padding-left: 100px;
-      padding-right: 100px;
-
+      padding-left: 10px;
+      padding-right: 10px;
 
       h1, h2 {
         padding-top: 0;
@@ -118,7 +117,7 @@ body {
       color: #f2f3f3;
       padding: 0 0 5px 0;
       font-family: sans-serif;
-      line-height: 65px;
+      line-height: 4rem;
       padding-top: 100px;
     }
 
@@ -452,4 +451,50 @@ body {
 
 .head-image {
   width: 300px;
+}
+
+.button-call{
+  background-color: white;
+  width: 140px;
+  margin: auto;
+  margin-top: 70px;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  a {
+    color: #6574c7 !important;
+  }
+}
+
+
+@media screen and (max-width: $break-small) {
+  body header .logo img {
+    width: 120px;
+  }
+  
+  h1, h2 {
+    padding-top: 0;
+  }
+
+  .home .purple-title {
+    padding-top: 60px;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+  }
+
+  .remote-img {
+    width: 60px;
+  }
+
+  body .page-header h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100 !important;
+    color: #f2f3f3;
+    font-family: sans-serif;
+    line-height: 26px;
+  }
+
 }
