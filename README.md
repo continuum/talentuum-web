@@ -27,3 +27,6 @@ For additional information on how you can customize your Gatsby site, see our
 [plugins](https://gatsbyjs.org/plugins/) and [the official
 tutorial](https://gatsbyjs.org/tutorial/).
 
+## Deploy
+
+The master branch of this repo is automatically deployed to https://www.talentuum.cl
