@@ -16,7 +16,7 @@ const Header = ({siteTitle}) => (
                     </a>
                 </div>
                 <div className={"button"}>
-                    <a href='#' onClick={openLogin}>Registrase / Acceder</a>
+                    <a href='#' onClick={openLogin}>Regístrate / Ingresa</a>
                 </div>
             </div>
         </div>
