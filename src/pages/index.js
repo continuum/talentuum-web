@@ -26,14 +26,14 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"col-5"}>
-                    <h2 class="to_left">
-                    <img src="https://image.flaticon.com/icons/svg/1006/1006524.svg" class="remote-img" />
+                    <h2 className="to_left">
+                    <img src="https://image.flaticon.com/icons/svg/1006/1006524.svg" className="remote-img" />
                     <br/>¿Eres un profesional talentoso que<br/>hace la diferencia?</h2>
                 </div>
                 <div className={"col-2"}>&nbsp;</div>
                 <div className={"col-5"}>
-                    <h2 class="to_right">
-                    <img src="https://image.flaticon.com/icons/svg/1860/1860803.svg" class="remote-img" />
+                    <h2 className="to_right">
+                    <img src="https://image.flaticon.com/icons/svg/1860/1860803.svg" className="remote-img" />
                     <br/>¿Ofreces desafíos <br/> en que valen la pena trabajar?
                     </h2>
                 </div>
