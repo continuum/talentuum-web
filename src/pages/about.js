@@ -19,7 +19,7 @@ const AboutPage = () => (
 
                 <p><h3>Talentuum es varias cosas a la vez.</h3></p>
                     
-                <p>Somos <span class="purple">agentes de talentos digitales</span> con ganas de desarrollarse profesionalmente y <span class="purple">reclutadores</span> para empresas que necesitan talento para hacer realidad sus productos y su visión. </p>
+                <p>Somos <span className="purple">agentes de talentos digitales</span> con ganas de desarrollarse profesionalmente y <span className="purple">reclutadores</span> para empresas que necesitan talento para hacer realidad sus productos y su visión. </p>
 
                 <div className={"to_right"}>
                     <img className={"head-image"} src="https://image.flaticon.com/icons/svg/476/476863.svg" />
