@@ -1,17 +1,407 @@
-<html>
-<head>
-    <title>Talentuum - Powered by Continuum</title>
-</head>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Talentuum by Continuum</title>
 
-<body>
-    <div style="text-align: center">
-        <img src="./images/Talentuum.jpg" usemap="#image-map">
+    <meta property="og:url"                content="https://www.talentuum.cl" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Talentuum by Continuum" />
+    <meta property="og:description"        content="Sómos una empresa con foco en las personas. Conectamos al talento que hace la diferencia, con los desafíos que vale la pena asumir." />
+    <meta property="og:image"              content="https://sebavidal10.github.io/talentuum/img/2927262.jpg" />    
 
-        <map name="image-map">
-            <area target="_blank" alt="" title="" href="mailto:talentuum@continuum.cl" coords="163,357,151,363,146,371,145,380,146,388,150,395,157,399,164,401,374,403,386,398,389,386,390,374,385,363,374,358,348,356" shape="poly">
-            <area target="_blank" alt="" title="" href="mailto:talentuum@continuum.cl" coords="409,1314,401,1316,396,1321,391,1327,387,1337,390,1346,396,1352,404,1357,411,1357,617,1358,624,1353,631,1348,635,1338,634,1329,630,1320,625,1316,617,1312" shape="poly">
-            <area target="_blank" alt="" title="" href="https://www.continuum.cl" coords="433,1415,592,1439" shape="rect">
-        </map>
-</div>
-</body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--Floating WhatsApp css-->
+    <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+    <!--Floating WhatsApp javascript-->
+    <script src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154563090-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154563090-1');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-558MQWS');</script>
+    <!-- End Google Tag Manager -->
+
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-558MQWS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  
+    <section class="hero is-fullheight fullscreen" style="background-image: url('img/2927262.jpg');">
+        <div class="overlay"></div>
+        <div class="hero-head ">
+            <nav class="navbar is-fixed-top" aria-label="main navigation">
+                <div class="container is-fluid">
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                    <img src="img/logo.svg" alt="Logo" class="">
+                    </a>
+                    <span class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div id="navMenu" class="navbar-menu">
+                    <div class="navbar-end is-uppercase">
+                    <a class="navbar-item is-active has-text-white" href="#top">
+                        Inicio
+                    </a>
+                    <a class="navbar-item has-text-white" href="#que-es">
+                        Qué es Talentuum
+                    </a>
+                    <a class="navbar-item has-text-white" href="#que-hacemos">
+                        Qué hacemos
+                    </a>
+                    <a class="navbar-item has-text-white" href="#hablemos">
+                        Hablemos
+                    </a>
+                    <!-- <a class="navbar-item has-text-white" href="">
+                        Blog
+                    </a> -->
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </div>
+      
+        <div class="hero-body" id="top">
+          <div class="container is-fluid has-text-left">
+            
+            <br/><br/><br/>
+            <p class="subtitle has-text-white has-text-centered">
+                Una nueva forma de reclutar
+            </p>
+
+            <p class="title has-text-white has-text-centered text-audio">
+                Sómos ingenieros reclutando ingenieros
+            </p>
+            <br/><br/><br/>
+
+            <p class="title-2 has-text-white has-text-centered">
+                <span class="blue-text">Entendemos</span> tu cultura.<br/>
+                <span class="blue-text">Identificamos</span> tus valores.<br/>
+                <span class="blue-text">Validamos</span> el match perfecto.<br/>
+            </p>
+            
+            <br/>
+
+            <p class="has-text-centered">
+                <a href="#hablemos" class="button btn-hablemos is-white is-medium">Hablemos!</a>
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <section class="hero is-medium" id="que-es">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h2 class="subtitle mini-letter">QUÉ ES TALENTUUM</h2>
+                <hr class="hr"/>
+                <p class="title">
+                    El <span class="shine-text">match perfecto</span> para<br/>
+                    tu empresa
+                </p>
+                <div class="columns">
+                    <p class="column is-three-fifths is-offset-one-fifth subtitle">Sómos una empresa con foco en las personas. Conectamos al talento que hace la diferencia, con los desafíos que vale la pena asumir.</p>
+                </div>
+                <h2><img src="img/icon.svg" alt="icon" class="icon-talentuum"></h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="back-image hero is-medium" style="background-image: url('img/team.jpg')">
+            <div class="columns">
+                <div class="column is-5-desktop is-offset-7-desktop back-opacity">
+
+                    <div class="hero-body has-text-white">
+                        <h2 class="subtitle has-text-white">PONEMOS EL <span class="shine-text">FOCO</span> EN EL CRITERIO</h2>
+                        <hr class="hr-pink"/>
+                        <p class="subtitle has-text-white">
+                            Por años, reclutar un talento TI ha sido una difícil labor por varias razones
+                            <br>
+                            <ul class="subtitle has-text-white list-ul">
+                                <li>> Temor de los reclutadores a enviar un <b>talento no calificado</b>.</li>
+                                <li>> <b>Extenuantes entrevistas</b>, que generan desmotivación.</li>
+                                <li>> Reclutamiento a candidatos TI de <b>la misma forma</b> que a candidatos administrativos.</li>
+                                <li>> El <b>personal de reclutamiento no es especialista</b> en el rubro.</li>
+                            </ul>
+                            <br>
+                            <div class="subtitle has-text-white"> Por eso en <span class="shine-text">Talentuum</span> hemos puesto foco en las necesidades de tu empresa, con los intereses del candidato y la validación de sus principales competencias</div>
+                            <br/>
+                            <div class="has-text-centered">
+                                <img class="logo-companies" alt="getonboard" src="https://d2dgum4gsvdsrq.cloudfront.net/assets/icon-new-72e542573ef41435e2488c639196df0d33bc2ffbe14bc33b5ca235909e39fa97.png">
+                                &nbsp;&nbsp;
+                                <img class="logo-companies" alt="hackerrank" src="https://is4-ssl.mzstatic.com/image/thumb/Podcasts113/v4/0b/76/31/0b7631cd-b78b-1cb1-e04c-c1326c516b4e/mza_6979595314594722300.jpg/600x600bb.jpg">
+                            </div>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+    <div>Photo by Brooke Cagle on Unsplash</div>
+
+    <section class="hero is-medium" id="que-hacemos">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h2 class="subtitle mini-letter">QUÉ HACEMOS</h2>
+                <hr class="hr"/>
+                <p class="title is-1">
+                    Logramos el <i>match</i><br/>entre el <span class="blue-text">Talento Ideal</span> y la <span class="shine-text">Empresa</span>
+                </p>
+                <!-- <hr class="hr"/> -->
+                <br/><br/>
+                <div class="columns">
+
+                    <div class="column has-text-left">
+                        <i class="fas fa-user-astronaut fa-4x blue-text"></i>
+                        <br><br><br>
+                        <div class="subtitle">
+                            <h2 class="subtitle is-3">Buscamos tu trabajo ideal</h2>
+                            Nos preocupamos de entender de lo que eres capaz con tu talento. Pero más importante: Nos interesa saber <span class="shine-text">qué te mueve</span>.
+                            <br><br><br><br>
+                            <h2 class="subtitle is-3">Guiamos tu crecimiento</h2>
+                            A veces no sabes si estás preparado para el siguiente paso en tu carrera. Te damos ese <span class="shine-text">empujoncito</span> cuando corresponda.
+                            <br><br><br><br>
+                            <!-- <a class="button is-info is-medium">Registrate!</a> -->
+                        </div>
+                    </div>
+
+                    <div class="column has-text-right">
+                        <i class="fas fa-city fa-4x shine-text"></i>
+                        <br><br><br>
+                        <div class="subtitle">
+                            <h2 class="subtitle is-3">Reclutamos</h2>
+                            Te ayudamos a comunicar una propuesta de valor para <span class="shine-text">atraer talentos</span> que conecten con los desafíos de tu equipo.
+                            <br><br><br><br>
+                            <h2 class="subtitle is-3">Validamos y Garantizamos</h2>
+                            En Continuum llevamos más de 10 años encontrando y seleccionando talento. Esa <span class="shine-text">experiencia</span> esta a tu disposición.
+                            <br><br><br><br>
+                            <!-- <a href="#hablemos" class="button is-pink is-medium">Hablemos!</a> -->
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <h2>
+                    <img alt="icon-talentuums" src="img/icon.svg" class="icon-talentuum">
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="back-image hero is-medium" style="background-image: url('img/posts.png');">
+        <div class="columns">
+            <div class="column is-7 back-opacity">
+
+                <div class="hero-body has-text-white">
+                    <h2 class="subtitle is-3 has-text-white">QUÉ DICEN DE <span class="shine-text">NUESTRO</span> TRABAJO</h2>
+                    <hr class="hr-pink"/>
+                    
+                    <div class="columns">
+                        <div class="column" style="padding: 10px 60px 10px 10px">
+                            <p class="has-text-white">
+                                <i>"Talentuum fue lo mejor para mí, con especialistas TI que me apoyaron y acompañaron en la búsqueda. Validaron técnica y analíticamente a candidatos de una forma entretenida y en el tiempo indicado. Quedé muy conforme con mi match perfecto"</i>
+                                <br/><br/>
+                                <div class="has-text-left">
+                                    <img alt="face-01" class="is-circular o-fit face border-shine" src="img/oscar-giraldo.png" /><br/>
+                                    <span class="shine-text subtitle">Oscar Giraldo</span>
+                                    <br/>
+                                    <span class="has-text-grey-light">CEO de Chaty</span>
+                                    <br/>
+                                    <a href="https://www.linkedin.com/in/oscargicast/" target="_blank">
+                                        <i class="fab fa-linkedin shine-text"></i>
+                                    </a>
+                                </div>
+                            </p>
+                            <hr class="is-hidden-tablet"/>
+                        </div>
+
+                        <div class="column" style="padding: 10px 60px 10px 10px">
+                            <p class="has-text-white">
+                                <i>"El proceso para entrar a Continuum fue bastante demandante técnicamente sumergido en un contexto país bien adverso pero desde Talentuum se encargaron de hacerlo llevadero y ameno, además me dieron opciones y una energía que no se siente en otras empresas de reclutamiento. Lejos una de las mejores experiencias que he tenido participando en procesos de reclutamiento."</i>
+                                <br/><br/>
+                                <div class="has-text-left">
+                                    <img alt="face-01" class="is-circular o-fit face border-blue" src="img/andres-santamaria.jpeg" /><br/>
+                                    <span class="blue-text subtitle">Andrés Santa María</span>
+                                    <br/>
+                                    <span class="has-text-grey-light">Product Lead</span>
+                                    <br/>
+                                    <a href="https://www.linkedin.com/in/asantamarianorero/" target="_blank">
+                                        <i class="fab fa-linkedin blue-text"></i>
+                                    </a>
+                                </div>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <div class="columns">
+        <div class="column is-8 is-offset-2">
+            <section class="hero is-medium" id="hablemos">
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+                        <!-- <h2 class="subtitle mini-letter">QUÉ ES TALENTUUM</h2> -->
+                        <!-- <hr class="hr"/> -->
+                        <p class="title">
+                            <span class="shine-text">Hablemos!</span>
+                        </p>
+                        <div class="columns">
+                            <div class="column subtitle">
+                                Si estás buscando <b>nuevos talentos</b> o quieres ir por ese <b>trabajo ideal</b><br/>puedes escribirnos a <a class="has-text-weight-bold" href="mailto:talentuum@continuum.cl">talentuum@continuum.cl</a> o hablarnos por Whatsapp al <a class="has-text-weight-bold" href="tel:+56962318954">+56 9 6231 8954</a> 
+                                <br/><br/>
+                                <a href="https://www.linkedin.com/company/64977319" target="_blank">
+                                    <img class="is-circular rrss" alt="Linkedin" src="img/rrss/linkedin-logo.png">
+                                </a>
+                                <a href="https://www.instagram.com/talentuum/" target="_blank">
+                                    <img class="is-circular rrss" alt="Instagram" src="img/rrss/instagram-logo.png">
+                                </a>
+                                <a href="https://twitter.com/talentuumhq" target="_blank">
+                                    <img class="is-circular rrss" alt="Twitter" src="img/rrss/twitter-logo.jpg">
+                                </a>
+                            </div>
+                            <!-- <div class="column is-6">
+                                <div class="field w-60">
+                                    <p class="control has-icons-left">
+                                    <input class="input" type="text" placeholder="Nombre">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    </p>
+                                </div>
+
+                                <div class="field w-60">
+                                    <p class="control has-icons-left">
+                                    <input class="input" type="email" placeholder="Email">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                    </p>
+                                </div>
+
+                                <div class="field w-60">
+                                    <p class="control has-icons-left">
+                                    <input class="input" type="text" placeholder="Asunto">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-edit"></i>
+                                    </span>
+                                    </p>
+                                </div>
+                                
+                                <div class="field">
+                                    <p class="control">
+                                        <textarea class="textarea" placeholder="Mensaje"></textarea>
+                                    </p>
+                                </div>
+                                
+                                <div class="field">
+                                    <p class="control has-text-right">
+                                    <button class="button is-black">
+                                        Enviar
+                                    </button>
+                                    </p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer has-background-black has-text-white">
+        <div class="content has-text-centered">
+          <p>
+            <strong class="has-text-white">© Talentuum</strong> by <a href="https://continuum.cl" class="has-text-success">Continuum</a>
+            <br/>
+            <br/>
+            <a href="https://www.freepik.com/free-photos-vectors/background" style="font-size: 12px">
+                <i class="fas fa-heart" style="color: red"></i>
+                Background vector created by pikisuperstar - www.freepik.com
+            </a>
+          </p>
+        </div>
+    </footer>
+
+    <div id="WAButton"></div>  
+      
+    <script src="scripts.js"></script>
+
+    <script type="text/javascript">
+        (function() {
+            var burger = document.querySelector('.burger');
+            var nav = document.querySelector('#'+burger.dataset.target);
+
+            burger.addEventListener('click', function(){
+                burger.classList.toggle('is-active');
+                nav.classList.toggle('is-active');
+            });
+        })();
+    </script>
+
+    <script>  
+        $(function() {
+            $('#WAButton').floatingWhatsApp({
+                phone: '56962318954',
+                // phone: '1231231231', //WhatsApp Business phone number International format- 
+                //Get it with Toky at https://toky.co/en/features/whatsapp. 56 9 6231 8954
+                headerTitle: 'Talentuum - WhatsApp!', //Popup Title
+                popupMessage: 'Hola, como puedo ayudarte?', //Popup Message
+                showPopup: true, //Enables popup display
+                buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+                //headerColor: 'crimson', //Custom header color
+                //backgroundColor: 'crimson', //Custom background button color
+                position: "right"    
+            });
+        });
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 350) {
+                    // $(".navbar").css("background-color", "rgba(0, 0, 0, 0.8)");
+                    $(".navbar").addClass("solid-black");
+                } else {
+                    $(".navbar").removeClass("solid-black");
+                    // $(".navbar").css("background-color", "transparent");
+                }
+            });
+        });
+    </script> 
+
+  </body>
 </html>
