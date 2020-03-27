@@ -60,11 +60,11 @@ body {
     color: #3198dc;
 }
 .shine-text {
-    color: #ff0057;
+    color: #cc0c4d;
 }
 
 .border-shine {
-    border: 5px solid #ff0057;
+    border: 5px solid #cc0c4d;
 }
 .border-blue {
     border: 5px solid #3198dc;
@@ -90,12 +90,17 @@ body {
 }
 .hr-pink {
     width: 20px;
-    border: 1px solid #ff0057;
+    border: 1px solid #cc0c4d;
+    margin: 0px 0px 20px;
+}
+.hr-blue {
+    width: 20px;
+    border: 1px solid #3198dc;
     margin: 0px 0px 20px;
 }
 
 .is-pink {
-    background-color: #ff0057;
+    background-color: #cc0c4d;
     color: white;
 }
 
