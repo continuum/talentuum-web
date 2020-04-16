@@ -26,6 +26,28 @@ body {
     height: 100%;
 }
 
+.hero-body {
+    padding: 6rem 1.5rem !important;
+}
+
+.icono-empresa {
+    object-fit: cover; 
+    width: 80px; 
+    border-radius: 10px; 
+    height: 80px; 
+    border: 1px solid #97c6e6;
+}
+
+.box-proceso {
+    margin: 5px 20px;
+}
+
+.logo-colores {
+    width: 300px;
+    height: 66px;
+    margin-top: 70px;
+}
+
 .text-audio {
     font-family: 'Audiowide';
 }
@@ -78,6 +100,11 @@ body {
     font-size: 16px;
 }
 
+.concept {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
 .icon-talentuum {
     width: 50px;
     margin: 40px;
@@ -97,6 +124,12 @@ body {
     width: 20px;
     border: 1px solid #3198dc;
     margin: 0px 0px 20px;
+}
+
+.we-are img {
+    width: 256px;
+    border-radius: 50%;
+    border: 5px solid #3198dc;
 }
 
 .is-pink {
@@ -166,6 +199,31 @@ body {
     border-radius: 50%;
 }
 
+.navbar {
+    background-color: transparent;
+}
+
+.solid-black {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.team-social{
+    color: #9b9b9b !important;
+    font-size: 22px;
+    margin: 3px;
+}
+.team-social:hover {
+    color: gray !important;
+}
+
+.description {
+    margin: 10px 0px;
+}
+
+.p-step {
+    padding: 5px 20px !important;
+    text-align: justify !important;
+}
+
 @media only screen and (max-width: 600px) {
     
     .title {
@@ -203,12 +261,4 @@ body {
         max-height: 35px;
     }
 
-}
-
-.navbar {
-    background-color: transparent;
-}
-
-.solid-black {
-    background-color: rgba(0, 0, 0, 0.8) !important;
 }
