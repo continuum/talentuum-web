@@ -62,6 +62,14 @@ body {
     font-weight: 400 !important;
 }
 
+.img-partners {
+    width: 80px;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
+
 .btn-hablemos {
     /* height: 120px; */
     /* width: 120px; */

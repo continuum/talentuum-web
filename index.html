@@ -479,23 +479,38 @@
         </div>
     </section>
 
-    <section class="hero has-background-white-ter" id="how-we-do">
+    <section class="hero has-background-dark" id="how-we-do">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <!-- <h2 class="subtitle mini-letter">Stats</h2> -->
                 <!-- <hr class="hr"/> -->
-                <p class="title is-1">
-                    Garantizamos la calidad de los <span class="shine-text">talentos</span>
+                <p class="title is-1 has-text-white">
+                    Garantizamos calidad
                 </p>
-                <!-- <br/><br/> -->
-                <!-- <div class="columns"> -->
-                    <!-- <div class="column"> -->
-                        <!-- <div class="subtitle is-3"><span class="shine-text">01.</span> IDENTIFICAMOS</div>                         -->
-                        <!-- <div> -->
-                            <!--  -->
-                        <!-- </div> -->
-                    <!-- </div> -->
-                <!-- </div> -->
+                <br/><br/>
+                <div class="columns has-text-white">
+                    <div class="column">
+                        <div class="columns">
+                    
+                            <div class="column">
+                                <img class="img-partners img-rounded" src="img/Continuum_logo.jpg" />
+                                <div class="is-size-4" style="margin-bottom: 10px">Respaldados por<br/><b>Continuum</b></div>
+                                <div><i>Developers & designers with a passion for making user-centered digital ideas come true</i></div>
+                            </div>
+                            <div class="column">
+                                <img class="img-partners img-rounded" src="img/GetonBoard_logo.png" />
+                                <div class="is-size-4" style="margin-bottom: 10px">Partners de<br/><b>Get on Board</b></div>
+                                <div><i>Awesome jobs for awesome people</i></div>
+                            </div>
+                            <div class="column">
+                                <img class="img-partners" src="img/HackerRank_logo.png" />
+                                <div class="is-size-4" style="margin-bottom: 10px">Candidatos validados con<br/><b>HackerRank</b></div>
+                                <div><i>Accelerating the world's innovation.</i></div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -512,7 +527,88 @@
                         </p>
                         <div class="columns">
                             <div class="column subtitle">
-                                Si estás buscando <b>nuevos talentos</b> o quieres ir por ese <b>trabajo ideal</b><br/>puedes escribirnos a <a class="has-text-weight-bold" href="mailto:talentuum@continuum.cl">talentuum@continuum.cl</a> o hablarnos por Whatsapp al <a class="has-text-weight-bold" href="tel:+56944092889">+56 9 6231 8954</a> 
+                                Si estás buscando <b>nuevos talentos</b> o quieres ir por ese <b>trabajo ideal</b>
+                                <br/>
+                                puedes escribirnos a <a class="has-text-weight-bold" href="mailto:talentuum@continuum.cl">talentuum@continuum.cl</a>, hablarnos por Whatsapp al <a class="has-text-weight-bold" href="tel:+56944092889">+56 9 6231 8954</a>
+                                </br>
+                                o llenar a través del siguiente formulario
+                                <br/><br/>
+                                
+                                <div class="column is-6 is-offset-3">
+                                    <i class="fas fa-4x has-text-grey-light fa-bullhorn"></i>
+                                    <br/><br/>
+
+                                    <div class="field">
+                                        <label class="radio">
+                                            <input type="radio" name="option" checked onclick="updateForm('filter_candidate')">
+                                            Talento
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="option" onclick="updateForm('filter_company')">
+                                            Empresa
+                                        </label>
+                                    </div>
+
+                                    <div class="field">
+                                        <p class="control has-icons-left">
+                                        <input class="input" type="text" placeholder="Nombre">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-user"></i>
+                                        </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="field filter_candidate">
+                                        <p class="control has-icons-left">
+                                        <input class="input" type="text" placeholder="Linkedin">
+                                        <span class="icon is-small is-left">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="field filter_company is-hidden">
+                                        <p class="control has-icons-left">
+                                        <input class="input" type="text" placeholder="Empresa">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-building"></i>
+                                        </span>
+                                        </p>
+                                    </div>
+    
+                                    <div class="field">
+                                        <p class="control has-icons-left">
+                                        <input class="input" type="email" placeholder="Email">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                        </p>
+                                    </div>
+    
+                                    <!-- <div class="field">
+                                        <p class="control has-icons-left">
+                                        <input class="input" type="text" placeholder="Asunto">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-edit"></i>
+                                        </span>
+                                        </p>
+                                    </div> -->
+                                    
+                                    <div class="field">
+                                        <p class="control">
+                                            <textarea class="textarea" placeholder="Mensaje"></textarea>
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="field">
+                                        <p class="control has-text-right">
+                                        <button class="button is-info">
+                                            Enviar
+                                        </button>
+                                        </p>
+                                    </div>
+                                </div>
+                                
                                 <br/><br/>
                                 <a href="https://www.linkedin.com/company/64977319" target="_blank">
                                     <img class="is-circular rrss" alt="Linkedin" src="img/rrss/linkedin-logo.png">
@@ -524,48 +620,7 @@
                                     <img class="is-circular rrss" alt="Twitter" src="img/rrss/twitter-logo.jpg">
                                 </a>
                             </div>
-                            <!-- <div class="column is-6">
-                                <div class="field w-60">
-                                    <p class="control has-icons-left">
-                                    <input class="input" type="text" placeholder="Nombre">
-                                    <span class="icon is-small is-left">
-                                        <i class="fas fa-user"></i>
-                                    </span>
-                                    </p>
-                                </div>
 
-                                <div class="field w-60">
-                                    <p class="control has-icons-left">
-                                    <input class="input" type="email" placeholder="Email">
-                                    <span class="icon is-small is-left">
-                                        <i class="fas fa-envelope"></i>
-                                    </span>
-                                    </p>
-                                </div>
-
-                                <div class="field w-60">
-                                    <p class="control has-icons-left">
-                                    <input class="input" type="text" placeholder="Asunto">
-                                    <span class="icon is-small is-left">
-                                        <i class="fas fa-edit"></i>
-                                    </span>
-                                    </p>
-                                </div>
-                                
-                                <div class="field">
-                                    <p class="control">
-                                        <textarea class="textarea" placeholder="Mensaje"></textarea>
-                                    </p>
-                                </div>
-                                
-                                <div class="field">
-                                    <p class="control has-text-right">
-                                    <button class="button is-black">
-                                        Enviar
-                                    </button>
-                                    </p>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -630,6 +685,25 @@
                 }
             });
         });
+
+        function updateForm(show_this_class){
+            
+            if( show_this_class == 'filter_candidate'){
+                $(".filter_candidate").addClass('is-hidden');
+                $(".filter_company").addClass('is-hidden');
+
+                $(".filter_candidate").removeClass('is-hidden');
+            }
+            
+            if( show_this_class == 'filter_company'){
+                $(".filter_candidate").addClass('is-hidden');
+                $(".filter_company").addClass('is-hidden');
+
+                $(".filter_company").removeClass('is-hidden');
+            }
+
+        }
+
     </script> 
 
   </body>
