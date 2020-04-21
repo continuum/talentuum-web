@@ -234,6 +234,10 @@ body {
     /* text-align: justify !important; */
 }
 
+.b-right {
+    float: right;
+}
+
 /* Tooltip container */
 .tooltip {
     position: relative;
