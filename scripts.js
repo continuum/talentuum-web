@@ -51,11 +51,9 @@ $(function() {
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(window).scrollTop() >= 350) {
-      // $(".navbar").css("background-color", "rgba(0, 0, 0, 0.8)");
       $(".navbar").addClass("solid-black");
     } else {
       $(".navbar").removeClass("solid-black");
-      // $(".navbar").css("background-color", "transparent");
     }
   });
 });
