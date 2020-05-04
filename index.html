@@ -3,19 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Talentuum by Continuum, Informáticos reclutando Informáticos</title>
-
+    <title>Talentuum by Continuum, Somos Informáticos reclutando Informáticos</title>
     <meta name="description" content="Somos una empresa con foco en las personas. Conectamos al talento que hace la diferencia, con los desafíos que vale la pena asumir." />
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Talentuum Team">
 
-    <meta property="og:url"                content="https://www.talentuum.cl" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Talentuum by Continuum" />
-    <meta property="og:description"        content="Somos una empresa con foco en las personas. Conectamos al talento que hace la diferencia, con los desafíos que vale la pena asumir." />
-    <meta property="og:image"              content="https://www.talentuum.cl/img/back-03.jpg" />    
+    <link rel=”canonical” href="https://www.talentuum.cl/" />
 
+    <meta property="og:url" content="https://www.talentuum.cl" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Talentuum by Continuum" />
+    <meta property="og:site_name" content="Talentuum" />
+    <meta property="og:description" content="Somos una empresa con foco en las personas. Conectamos al talento que hace la diferencia, con los desafíos que vale la pena asumir." />
+    <meta property="og:image" content="https://www.talentuum.cl/img/back-03.jpg" />    
+
+    <meta property="twitter:title" content="Talentuum by Continuum" />
+    <meta property="twitter:description" content="Somos una empresa con foco en las personas. Conectamos al talento que hace la diferencia, con los desafíos que vale la pena asumir." />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@talentuumhq" />
     <meta name="twitter:creator" content="@talentuumhq" />
+    <meta name="twitter:image" content="https://www.talentuum.cl/img/back-03.jpg" />
+    <meta name="twitter:title" content="Talentuum by Continuum" />
+    <meta name="twitter:description" content="Somos una empresa con foco en las personas. Conectamos al talento que hace la diferencia, con los desafíos que vale la pena asumir." />
+
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
@@ -53,7 +63,7 @@
         })(window,document,'script','dataLayer','GTM-558MQWS');</script>
     <!-- End Google Tag Manager -->
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 
   </head>
   <body>
@@ -61,17 +71,16 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-558MQWS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
   
-    <!-- <section class="hero is-fullheight fullscreen" style="background-image: url('img/back-01.jpg');"> -->
     <section class="hero is-fullheight fullscreen" style="background-image: url('img/back-03.jpg'); background-position: center;">
         <div class="overlay"></div>
         <div class="hero-head ">
             <nav class="navbar is-fixed-top" aria-label="main navigation">
                 <div class="container is-fluid">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="/">
+                    <a class="navbar-item" href="/" title="index">
                     <img src="img/fondo-oscuro.svg" alt="Logo" class="">
                     </a>
-                    <span class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                    <span role="navbar" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -79,27 +88,24 @@
                 </div>
                 <div id="navMenu" class="navbar-menu">
                     <div class="navbar-end is-uppercase">
-                    <a class="navbar-item is-active has-text-white" href="#top">
-                        Inicio
-                    </a>
-                    <a class="navbar-item has-text-white" href="#que-es">
-                        Qué es Talentuum
-                    </a>
-                    <a class="navbar-item has-text-white" href="#que-hacemos">
-                        Qué hacemos
-                    </a>
-                    <a class="navbar-item has-text-white" href="#quienes-somos">
-                        Quiénes somos
-                    </a>
-                    <a class="navbar-item has-text-white is-hidden" href="#procesos">
-                        Empleos
-                    </a>
-                    <a class="navbar-item has-text-white" href="#hablemos">
-                        Hablemos
-                    </a>
-                    <!-- <a class="navbar-item has-text-white" href="">
-                        Blog
-                    </a> -->
+                        <a class="navbar-item is-active has-text-white" title="Inicio" href="#top">
+                            Inicio
+                        </a>
+                        <a class="navbar-item has-text-white" title="Qué es Talentuum" href="#que-es">
+                            Qué es Talentuum
+                        </a>
+                        <a class="navbar-item has-text-white" title="Qué hacemos" href="#que-hacemos">
+                            Qué hacemos
+                        </a>
+                        <a class="navbar-item has-text-white" title="Quiénes somos" href="#quienes-somos">
+                            Quiénes somos
+                        </a>
+                        <a class="navbar-item has-text-white is-hidden" title="Empleos" href="#procesos">
+                            Empleos
+                        </a>
+                        <a class="navbar-item has-text-white" title="Hablemos" href="#hablemos">
+                            Hablemos
+                        </a>
                     </div>
                 </div>
                 </div>
@@ -109,7 +115,6 @@
         <div class="hero-body" id="top">
           <div class="container is-fluid has-text-left">
             
-            <!-- <p class="subtitle has-text-white has-text-left">Una nueva forma de reclutar</p> -->
             <br/>
 
             <p class="title-2 has-text-white has-text-left">
@@ -123,7 +128,7 @@
             <h1 class="title has-text-white has-text-left text-audio">Somos informáticos<br/>reclutando informáticos</h1>            
            
             <p class="has-text-left">
-                <a href="#hablemos" class="button btn-hablemos is-white is-medium">Hablemos!</a>
+                <a href="#hablemos" title="Hablemos" class="button btn-hablemos is-white is-medium">Hablemos!</a>
             </p>
 
           </div>
@@ -142,7 +147,7 @@
                 <div class="columns">
                     <p class="column is-three-fifths is-offset-one-fifth subtitle">Somos una empresa con foco en las personas. Conectamos al talento que hace la diferencia, con los desafíos que vale la pena asumir.</p>
                 </div>
-                <h2><img src="img/icon.svg" alt="icon" class="icon-talentuum"></h2>
+                <div><img src="img/icon.svg" alt="icon" class="icon-talentuum"></div>
             </div>
         </div>
     </section>
@@ -167,9 +172,9 @@
                             <div class="subtitle has-text-white"> Por eso en <span class="blue-text">Talentuum</span> hemos puesto foco en las necesidades de tu empresa, con los intereses del candidato y la validación de sus principales competencias</div>
                             <br/>
                             <div class="has-text-centered">
-                                <img class="logo-companies" alt="getonboard" src="https://d2dgum4gsvdsrq.cloudfront.net/assets/icon-new-72e542573ef41435e2488c639196df0d33bc2ffbe14bc33b5ca235909e39fa97.png">
+                                <img class="logo-companies" alt="getonboard" src="/img/GetonBoard_logo.png">
                                 &nbsp;&nbsp;
-                                <img class="logo-companies" alt="hackerrank" src="https://is4-ssl.mzstatic.com/image/thumb/Podcasts113/v4/0b/76/31/0b7631cd-b78b-1cb1-e04c-c1326c516b4e/mza_6979595314594722300.jpg/600x600bb.jpg">
+                                <img class="logo-companies" alt="hackerrank" src="/img/HackerRank_logo.png">
                             </div>
                         </p>
                     </div>
@@ -188,42 +193,35 @@
                 <p class="title is-1">
                     Logramos el match perfecto
                 </p>
-                <!-- <hr class="hr"/> -->
                 <br/><br/>
                 <div class="columns">
 
                     <div class="column has-text-left">
-                        <span class="blue-text title is-1">Talento</span>
-                        <br><br><br>
+                        <div class="blue-text title is-1 big-bottom">Talento</div>
                         <div class="subtitle">
                             <h2 class="subtitle is-3">Buscamos tu trabajo ideal</h2>
-                            Nos preocupamos de entender de lo que eres capaz con tu talento. Pero más importante: Nos interesa saber <span class="blue-text">qué te mueve</span>.
-                            <br><br><br><br>
+                            <p>Nos preocupamos de entender de lo que eres capaz con tu talento. Pero más importante: Nos interesa saber <span class="blue-text">qué te mueve</span>.</p>
+                            <br/>
+                            <br/>
                             <h2 class="subtitle is-3">Guiamos tu crecimiento</h2>
-                            A veces no sabes si estás preparado para el siguiente paso en tu carrera. Te damos ese <span class="blue-text">empujoncito</span> cuando corresponda.
-                            <br><br><br><br>
-                            <!-- <a class="button is-info is-medium">Registrate!</a> -->
+                            <p>A veces no sabes si estás preparado para el siguiente paso en tu carrera. Te damos ese <span class="blue-text">empujoncito</span> cuando corresponda.</p>
                         </div>
                     </div>
 
                     <div class="column has-text-right">
-                        <span class="shine-text title is-1">Empresa</span>
-                        <br><br><br>
+                        <div class="shine-text title is-1 big-bottom">Empresa</div>
                         <div class="subtitle">
                             <h2 class="subtitle is-3">Reclutamos</h2>
-                            Te ayudamos a comunicar una propuesta de valor para <span class="shine-text">atraer talentos</span> que conecten con los desafíos de tu equipo.
-                            <br><br><br><br>
+                            <p>Te ayudamos a comunicar una propuesta de valor para <span class="shine-text">atraer talentos</span> que conecten con los desafíos de tu equipo.</p>
+                            <br/>
+                            <br/>
                             <h2 class="subtitle is-3">Validamos y Garantizamos</h2>
-                            Como Talentuum llevamos años encontrando y seleccionando candidatos. Esa <span class="shine-text">experiencia</span> esta a tu disposición.
-                            <br><br><br><br>
-                            <!-- <a href="#hablemos" class="button is-pink is-medium">Hablemos!</a> -->
+                            <p>Como Talentuum llevamos años encontrando y seleccionando candidatos. Esa <span class="shine-text">experiencia</span> esta a tu disposición.</p>
                         </div>
                     </div>
                     
                 </div>
-                <h2>
-                    <img alt="icon-talentuums" src="img/icon.svg" class="icon-talentuum">
-                </h2>
+                <div><img alt="icon-talentuums" src="img/icon.svg" class="icon-talentuum"></div>
             </div>
         </div>
     </section>
@@ -241,28 +239,28 @@
                     <div class="column">
                         <div class="subtitle is-3"><span class="shine-text">01.</span> IDENTIFICAMOS</div>                        
                         <div>
-                            <img src="./img/process/01.svg" class="concept" />
+                            <img src="./img/process/01.svg" alt="Propuesta de Valor" class="concept" />
                             <div class="p-step">Definimos la <b>propuesta de valor</b> de cara al talento y el perfil del candidato a buscar.</div>
                         </div>
                     </div>
                     <div class="column">
                         <div class="subtitle is-3"><span class="shine-text">02.</span> BUSCAMOS</div>                        
                         <div>
-                            <img src="./img/process/02.svg" class="concept" />
+                            <img src="./img/process/02.svg" alt="Publicaciones" class="concept" />
                             <div class="p-step">Realizamos <b>publicaciones</b> y revisamos en nuestra base de datos posibles candidatos.</div>
                         </div>
                     </div>
                     <div class="column">
                         <div class="subtitle is-3"><span class="shine-text">03.</span> VALIDAMOS</div>                        
                         <div>
-                            <img src="./img/process/03.svg" class="concept" />
+                            <img src="./img/process/03.svg" alt="Desafios técnicos" class="concept" />
                             <div class="p-step">Realizamos <b>desafios técnicos</b> y <b>entrevistas</b> al talento para buscar el match perfecto con la organización</div>
                         </div>
                     </div>
                     <div class="column">
                         <div class="subtitle is-3"><span class="shine-text">04.</span> ENVIAMOS</div>                        
                         <div>
-                            <img src="./img/process/04.svg" class="concept" />
+                            <img src="./img/process/04.svg" alt="Documentación" class="concept" />
                             <div class="p-step">Enviamos los candidatos junto a la <b>documentación</b> que lo respalda.</div>
                         </div>
                     </div>
@@ -290,7 +288,7 @@
                         <div class="columns">
                             <div class="column is-centered">
                                 <figure class="we-are">
-                                    <img src="/img/team/andre.jpg">
+                                    <img src="/img/team/andre.jpg" alt="Andre">
                                 </figure>
                                 <div class="is-size-4">Andrea Contreras M.</div>
                                 <p class="description">
@@ -302,12 +300,12 @@
                                     </div>
                                 </p>
                                 <p class="is-centerd">
-                                    <a href="https://www.linkedin.com/in/andrea-contreras🔎-74826430" target="_blank" class="team-social"><i class="fab fa-linkedin-in"></i></a>
+                                    <a title="Linkedin" href="https://www.linkedin.com/in/andrea-contreras🔎-74826430" target="_blank" class="team-social"><i class="fab fa-linkedin-in"></i></a>
                                 </p>
                             </div>
                             <div class="column is-centered">
                                 <figure class="we-are">
-                                    <img src="/img/team/seba.jpg">
+                                    <img src="/img/team/seba.jpg" alt="Seba">
                                 </figure>
                                 <div class="is-size-4">Sebastián Vidal A.</div>
                                 <p class="description">
@@ -321,14 +319,14 @@
                                     </div>
                                 </p>
                                 <p class="is-centerd">
-                                    <a href="https://www.linkedin.com/in/sebavidal/" target="_blank" class="team-social"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://github.com/sebavidal10" target="_blank" class="team-social"><i class="fab fa-github"></i></a>
-                                    <a href="https://medium.com/@seba.vidal" target="_blank" class="team-social"><i class="fab fa-medium-m"></i></a>
+                                    <a title="Linkedin" href="https://www.linkedin.com/in/sebavidal/" target="_blank" class="team-social"><i class="fab fa-linkedin-in"></i></a>
+                                    <a title="GitHub" href="https://github.com/sebavidal10" target="_blank" class="team-social"><i class="fab fa-github"></i></a>
+                                    <a title="Medium" href="https://medium.com/@seba.vidal" target="_blank" class="team-social"><i class="fab fa-medium-m"></i></a>
                                 </p>
                             </div>
                             <div class="column is-centered">
                                 <figure class="we-are">
-                                    <img src="/img/team/mary.jpg">
+                                    <img src="/img/team/mary.jpg" alt="Mary">
                                 </figure>
                                 <div class="is-size-4">Mary C. Vásquez B.</div>
                                 <p class="description">
@@ -342,13 +340,13 @@
                                     </div>
                                 </p>
                                 <p class="is-centerd">
-                                    <a href="https://www.linkedin.com/in/maryvasquez" target="_blank" class="team-social"><i class="fab fa-linkedin-in"></i></a>
+                                    <a title="Linkedin" href="https://www.linkedin.com/in/maryvasquez" target="_blank" class="team-social"><i class="fab fa-linkedin-in"></i></a>
                                 </p>
                             </div>
 
                             <div class="column is-centered">
                                 <figure class="we-are">
-                                    <img src="/img/team/tania.jpg">
+                                    <img src="/img/team/tania.jpg" alt="Tania">
                                 </figure>
                                 <div class="is-size-4">Tania</div>
                                 <p class="description">
@@ -387,7 +385,7 @@
                                     <br>
                                     <span class="has-text-grey-light">CEO de Chaty</span>
                                     <br>
-                                    <a href="https://www.linkedin.com/in/oscargicast/" target="_blank">
+                                    <a title="Perfil" href="https://www.linkedin.com/in/oscargicast/" target="_blank">
                                         <svg class="svg-inline--fa fa-linkedin fa-w-14 blue-text" aria-hidden="true" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg><!-- <i class="fab fa-linkedin blue-text"></i> -->
                                     </a>
                                 </div>
@@ -405,7 +403,7 @@
                                     <br>
                                     <span class="has-text-grey-light">Product Lead</span>
                                     <br>
-                                    <a href="https://www.linkedin.com/in/asantamarianorero/" target="_blank">
+                                    <a title="Perfil" href="https://www.linkedin.com/in/asantamarianorero/" target="_blank">
                                         <svg class="svg-inline--fa fa-linkedin fa-w-14 blue-text" aria-hidden="true" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg><!-- <i class="fab fa-linkedin blue-text"></i> -->
                                     </a>
                                 </div>
@@ -432,47 +430,9 @@
                 <br>
                 <br>
                 <div class="columns">
-                    
-                    <!--
-                        <i class="far fa-clock tooltip"></i>&nbsp;&nbsp;
-                        <i class="fas fa-cookie-bite tooltip"></i>&nbsp;&nbsp;
-                        <i class="fas fa-tshirt tooltip"></i>&nbsp;&nbsp;
-                        <i class="fas fa-laptop-code tooltip"></i>&nbsp;&nbsp;
-                        <i class="fas fa-first-aid tooltip"></i>&nbsp;&nbsp;
-                    -->
-
-                    <div class="column has-text-left box-proceso">
-                        <div><img src="https://www.pegasconsentido.cl/front/images/pegas-logo.svg" class="icono-empresa"></div>
-                        <div class="is-size-3">Chief Technical Officer CTO</div>
-                        <p><a href="https://pegasconsentido.cl" target="_blank">Pegas con Sentido</a> es una comunidad que une organizaciones y personas que buscan generar impactos positivos para la sociedad.</p>
-                        <br>
-                        <br>
-                        <div>
-                            <svg class="svg-inline--fa fa-clock fa-w-16" aria-hidden="true" data-prefix="far" data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg><!-- <i class="far fa-clock"></i> -->&nbsp;&nbsp;
-                            <svg class="svg-inline--fa fa-tshirt fa-w-20" aria-hidden="true" data-prefix="fas" data-icon="tshirt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M631.2 96.5L436.5 0C416.4 27.8 371.9 47.2 320 47.2S223.6 27.8 203.5 0L8.8 96.5c-7.9 4-11.1 13.6-7.2 21.5l57.2 114.5c4 7.9 13.6 11.1 21.5 7.2l56.6-27.7c10.6-5.2 23 2.5 23 14.4V480c0 17.7 14.3 32 32 32h256c17.7 0 32-14.3 32-32V226.3c0-11.8 12.4-19.6 23-14.4l56.6 27.7c7.9 4 17.5.8 21.5-7.2L638.3 118c4-7.9.8-17.6-7.1-21.5z"></path></svg><!-- <i class="fas fa-tshirt"></i> -->&nbsp;&nbsp;
-                            <svg class="svg-inline--fa fa-laptop-code fa-w-20" aria-hidden="true" data-prefix="fas" data-icon="laptop-code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg><!-- <i class="fas fa-laptop-code"></i> -->&nbsp;&nbsp;
-                        </div>
-                        <br>
-                        <a href="https://www.getonbrd.com/empleos/programacion/desarrollador-fullstack-continuum-santiago" target="_blank" class="button is-info is-fullwidth">Ver más</a>
-                    </div>
-
-                    <div class="column has-text-left box-proceso">
-                        <div><img src="https://www.2win.cl/images/logo/logo_2win.svg" class="icono-empresa"></div>
-                        <div class="is-size-3">Desarrollador/a JavaScript</div>
-                        <p><a href="https://www.2win.cl" target="_blank">2WIN</a> se enfocamoa en brindar soluciones concretas y óptimas en función de la realidad de cada caso, que permitan mejorar la última línea de resultados de nuestros clientes.</p>
-                        <br>
-                        <div>
-                            <svg class="svg-inline--fa fa-clock fa-w-16 has-tooltip-tops" aria-hidden="true" data-prefix="far" data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg><!-- <i class="far fa-clock has-tooltip-tops"></i> -->&nbsp;&nbsp;
-                            <svg class="svg-inline--fa fa-tshirt fa-w-20" aria-hidden="true" data-prefix="fas" data-icon="tshirt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M631.2 96.5L436.5 0C416.4 27.8 371.9 47.2 320 47.2S223.6 27.8 203.5 0L8.8 96.5c-7.9 4-11.1 13.6-7.2 21.5l57.2 114.5c4 7.9 13.6 11.1 21.5 7.2l56.6-27.7c10.6-5.2 23 2.5 23 14.4V480c0 17.7 14.3 32 32 32h256c17.7 0 32-14.3 32-32V226.3c0-11.8 12.4-19.6 23-14.4l56.6 27.7c7.9 4 17.5.8 21.5-7.2L638.3 118c4-7.9.8-17.6-7.1-21.5z"></path></svg><!-- <i class="fas fa-tshirt"></i> -->&nbsp;&nbsp;
-                            <svg class="svg-inline--fa fa-laptop-code fa-w-20" aria-hidden="true" data-prefix="fas" data-icon="laptop-code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg><!-- <i class="fas fa-laptop-code"></i> -->&nbsp;&nbsp;
-                            <svg class="svg-inline--fa fa-first-aid fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="first-aid" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M0 80v352c0 26.5 21.5 48 48 48h48V32H48C21.5 32 0 53.5 0 80zm128 400h320V32H128v448zm64-248c0-4.4 3.6-8 8-8h56v-56c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v56h56c4.4 0 8 3.6 8 8v48c0 4.4-3.6 8-8 8h-56v56c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8v-56h-56c-4.4 0-8-3.6-8-8v-48zM528 32h-48v448h48c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg><!-- <i class="fas fa-first-aid"></i> -->&nbsp;&nbsp;
-                        </div>
-                        <br>
-                        <a href="https://www.getonbrd.com/empleos/community-management-soporte/desarrollador-a-javascript-continuum-santiago" target="_blank" class="button is-info is-fullwidth">Ver más</a>
-                    </div>
-                    
+                
                 </div>
-                <h2><img src="img/icon.svg" alt="icon" class="icon-talentuum"></h2>
+                <div><img title="Talentuum" src="img/icon.svg" alt="icon" class="icon-talentuum"></div>
             </div>
         </div>
     </section>
@@ -480,8 +440,6 @@
     <section class="hero has-background-dark" id="how-we-do">
         <div class="hero-body">
             <div class="container has-text-centered">
-                <!-- <h2 class="subtitle mini-letter">Stats</h2> -->
-                <!-- <hr class="hr"/> -->
                 <p class="title is-1 has-text-white">
                     Garantizamos calidad
                 </p>
@@ -491,17 +449,17 @@
                         <div class="columns">
                     
                             <div class="column">
-                                <img class="img-partners img-rounded" src="img/Continuum_logo.jpg" />
+                                <img class="img-partners img-rounded" alt="Logo Continuum" src="img/Continuum_logo.jpg" />
                                 <div class="is-size-4" style="margin-bottom: 10px">Respaldados por<br/><b>Continuum</b></div>
                                 <div><i>Developers & designers with a passion for making user-centered digital ideas come true</i></div>
                             </div>
                             <div class="column">
-                                <img class="img-partners img-rounded" src="img/GetonBoard_logo.png" />
+                                <img class="img-partners img-rounded" alt="Logo Get on Board" src="img/GetonBoard_logo.png" />
                                 <div class="is-size-4" style="margin-bottom: 10px">Partners de<br/><b>Get on Board</b></div>
                                 <div><i>Awesome jobs for awesome people</i></div>
                             </div>
                             <div class="column">
-                                <img class="img-partners" src="img/HackerRank_logo.png" />
+                                <img class="img-partners" alt="Logo Hackerrank" src="img/HackerRank_logo.png" />
                                 <div class="is-size-4" style="margin-bottom: 10px">Candidatos validados con<br/><b>HackerRank</b></div>
                                 <div><i>Accelerating the world's innovation.</i></div>
                             </div>
@@ -518,8 +476,6 @@
             <section class="hero is-medium" id="hablemos">
                 <div class="hero-body">
                     <div class="container has-text-centered">
-                        <!-- <h2 class="subtitle mini-letter">QUÉ ES TALENTUUM</h2> -->
-                        <!-- <hr class="hr"/> -->
                         <p class="title">
                             <span class="shine-text">Hablemos!</span>
                         </p>
@@ -527,7 +483,7 @@
                             <div class="column subtitle">
                                 Si estás buscando <b>nuevos talentos</b> o quieres ir por ese <b>trabajo ideal</b>
                                 <br/>
-                                puedes escribirnos a <a class="has-text-weight-bold" href="mailto:talentuum@continuum.cl">talentuum@continuum.cl</a>, hablarnos por Whatsapp al <a class="has-text-weight-bold" href="tel:+56944092889">+56 9 6231 8954</a>
+                                puedes escribirnos a <a class="has-text-weight-bold" href="mailto:talentuum@continuum.cl">talentuum@continuum.cl</a>, hablarnos por Whatsapp al <a title="call-me" class="has-text-weight-bold" href="tel:+56944092889">+56 9 6231 8954</a>
                                 </br>
                                 o llenar a través del siguiente formulario
                                 <br/><br/>
@@ -611,25 +567,25 @@
     <footer class="footer has-background-black has-text-white">
         <div class="content has-text-centered">
           <p>
-            <a href="https://www.linkedin.com/company/64977319" target="_blank">
+            <a title="Linkedin" href="https://www.linkedin.com/company/64977319" target="_blank">
                 <img class="is-circular rrss" alt="Linkedin" src="img/rrss/linkedin-logo.png">
             </a>
-            <a href="https://www.instagram.com/talentuum/" target="_blank">
+            <a title="Instagram" href="https://www.instagram.com/talentuum/" target="_blank">
                 <img class="is-circular rrss" alt="Instagram" src="img/rrss/instagram-logo.png">
             </a>
-            <a href="https://twitter.com/talentuumhq" target="_blank">
+            <a title="Twitter" href="https://twitter.com/talentuumhq" target="_blank">
                 <img class="is-circular rrss" alt="Twitter" src="img/rrss/twitter-logo.jpg">
             </a>
             <br/>
             <br/>
-            <strong class="has-text-white">© Talentuum</strong> by <a href="https://continuum.cl" class="has-text-success">Continuum</a>
+            <strong class="has-text-white">© Talentuum</strong> by <a title="Continuum" href="https://continuum.cl" class="has-text-success">Continuum</a>
             <br/>
             <br/>
             <!-- <a href="https://www.freepik.com/free-photos-vectors/background" style="font-size: 12px">
                 <i class="fas fa-heart" style="color: red"></i>
                 Background vector created by pikisuperstar - www.freepik.com
             </a> -->
-            Photo by <a href="https://unsplash.com/@brookecagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Brooke Cagle</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a>
+            Photo by <a title="brookecagle" href="https://unsplash.com/@brookecagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Brooke Cagle</a> on <a href="https://unsplash.com" title="Unsplash" target="_blank">Unsplash</a>
           </p>
         </div>
     </footer>
