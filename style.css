@@ -86,9 +86,11 @@ body {
     color: #3198dc;
 }
 .shine-text {
+    color: #eea605;
+}
+.purple-text {
     color: #cc0c4d;
 }
-
 .border-shine {
     border: 5px solid #cc0c4d;
 }
