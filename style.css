@@ -95,7 +95,7 @@ body {
     border: 5px solid #cc0c4d;
 }
 .border-blue {
-    border: 5px solid #3198dc;
+    border: 5px solid rgb(49 152 220 / 0.6);
 }
 
 .mini-letter-light {
@@ -137,7 +137,7 @@ body {
 .we-are img {
     width: 256px;
     border-radius: 50%;
-    border: 5px solid #3198dc;
+    border: 5px solid rgb(49 152 220 / 0.6);
 }
 
 .is-pink {
