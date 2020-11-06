@@ -34,7 +34,7 @@ body {
     object-fit: cover; 
     border-radius: 10px; 
     height: 80px; 
-    /* border: 1px solid #333333 */
+    box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
 }
 
 .box {
